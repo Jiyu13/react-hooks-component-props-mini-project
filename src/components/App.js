@@ -8,7 +8,7 @@ import ArticleList from "./ArticleList"
 function App() {
   return (
     <div className="App">
-      <Header blogData={blogData}/>
+      <Header blogData={blogData.name}/>
       <About about={blogData.about}/>
       <ArticleList posts={blogData.posts}/>
     </div>
